@@ -1,0 +1,31 @@
+.report-sales-header {
+    display: flex;
+
+    a {
+        position: relative;
+        padding: 10px;
+        &:after {
+            content: '';
+            border-right: 0.5px solid #6B6B6B;
+            height: 14px;
+            position: absolute;
+            top: calc(50% - 7px);
+            right: 0;
+        }
+        &:nth-last-child(1) {
+            &:after {
+                display: none;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #BDBDBD;
+        }
+        &.active {
+            p {
+                color: #022E45;
+                font-weight: 700;
+            }
+        }
+    }
+}

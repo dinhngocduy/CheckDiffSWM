@@ -1,0 +1,63 @@
+.right {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    margin-bottom: 12px;
+    width: 100%;
+    &:span {
+        margin-bottom: 5px;
+    }
+}
+
+.field{
+    border: 2px solid #E0E0E0;
+    border-radius: 6px;
+    position: relative;
+    background: #FAFBFC;
+    display: flex;
+
+    &__text {
+        box-sizing: border-box;
+        height: 32px;
+        flex:1;
+        padding: 6px 12px 9px;
+        background: #FAFBFC;
+        border: #ffffff;
+        outline: none;
+    }
+
+    &__bt {
+        border: none;
+        outline: none;
+        background: inherit;
+        padding: 0 1rem;
+    }
+}
+
+.text-field {
+    box-sizing: border-box;
+    flex:1;
+    height: 32px;
+    padding: 6px 12px 9px;
+    background: #FAFBFC;
+    border: #ffffff;
+    outline: none;
+}
+
+.visible-bt {
+    border: none;
+    outline: none;
+    background: inherit;
+    position: absolute;
+    right: 0;
+    top: 18.13%;
+    bottom: 18.13%;
+}
+
+

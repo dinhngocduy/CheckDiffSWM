@@ -1,0 +1,48 @@
+.report-ov-payment-ctn {
+    height: 39rem;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F0F0F0;
+
+    .report-ov-payment-header {
+        margin-bottom: 3.6rem;
+
+        .report-ov-payment-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #000;
+            border-bottom: 2px solid #000;
+            margin-right: 13rem;
+            padding-bottom: 1rem;
+            
+        }
+    }
+    .report-ov-payment-body{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      
+        .report-ov-payment-option{
+           padding: 1rem 3rem;
+           margin-top: 1rem;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           border-radius:8px;
+           margin-right: 14rem;
+
+           .option-text{
+               padding: 0 1rem;
+               font-size: 1.4rem;
+               font-weight: 400;
+
+               &:hover{
+                cursor: pointer;
+               }
+           }
+        }
+
+        
+    }
+}

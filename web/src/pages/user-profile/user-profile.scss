@@ -1,0 +1,96 @@
+.card-view {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    padding:3rem;
+    border-radius: 6px;
+    width: 100%;
+
+    &__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: row;
+
+        &__right {
+            display: flex;
+            flex-direction: row;
+            flex:1;
+
+            &__column {
+                flex: 1;
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    &__authority {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-top: 5rem;
+    }
+
+    &__authority *{
+        padding-bottom: 6px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+
+        &__cancel {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 20px;
+            margin-right: 10px;
+            outline: none;
+        
+            width: 141px;
+            height: 38px;
+            background: rgba(0, 0, 0, 0.1);
+            border: #FFFFFF;
+            border-radius: 6px;
+            font-size: 16px; 
+            font-weight: 400;
+        }
+
+        &__save{
+            display: flex;
+            flex: none; 
+            flex-grow: 0;
+            justify-content: space-around;
+            align-items: center;
+            width: 120px; 
+            height: 40px;
+            padding: 8px 20px 8px 20px;
+            margin-left: 8px;
+
+            background: rgba(0, 186, 181, 1);
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            border: 0px ;
+            border-radius: 6px;
+        } 
+    }
+}
+
+.check-bt{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border: none; 
+    background: inherit;
+}

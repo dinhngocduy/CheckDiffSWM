@@ -1,0 +1,35 @@
+.report-sales-filter {
+    width: 100%;
+    margin: 20px 0;
+    height: 42px;
+
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+        margin-top: 0 !important;
+        flex-basis: 25%;
+        max-width: 230px;
+        height: 100%;
+
+        > div {
+            height: 100%;
+        }
+    }
+
+    .ant-picker {
+        width: 244px;
+    }
+
+    .search-btn {
+        background: rgb(0, 186, 181) none repeat scroll 0% 0%;
+        color: white;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 120px;
+      
+    }
+
+}

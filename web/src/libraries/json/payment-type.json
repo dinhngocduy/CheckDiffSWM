@@ -1,0 +1,18 @@
+[
+    {
+        "label": "Momo",
+        "value": "MOMO"
+    },
+    {
+        "label": "Tiền mặt",
+        "value": "CASH_AT_MACHINE"
+    },
+    {
+        "label": "Qr Code",
+        "value": "VNPT_PAY"
+    },
+    {
+        "label": "Thẻ ngân hàng",
+        "value": "CARD"
+    }
+]

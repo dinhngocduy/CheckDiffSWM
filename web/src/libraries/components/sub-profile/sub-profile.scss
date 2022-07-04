@@ -1,0 +1,48 @@
+.sub-profile {
+    position: relative;
+
+    > .details {
+
+        &.collapsed {
+            display: none;
+        }
+
+        position: absolute;
+        background: #FFFFFF;
+
+        border-radius: 8px;
+        box-shadow: 2px 4px 24px rgba(0, 0, 0, 0.25);
+        z-index: 999;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 14px 16px;
+        height: 98px;
+        width: 157px;
+        right: 15px;
+        top: 50px;
+
+        > div {
+            flex-basis: 100%;
+        }
+
+        * {
+            font-size: 12px;
+            color: #2E3A59;
+            font-weight: 400;
+        }
+
+        .userIcon {
+            content: url("../../../assets/svg/user_info_icon.svg");
+            width: 16px;
+            height: 19px;
+            margin-right: 12px;
+        }
+
+        .logOut {
+            content: url("../../../assets/svg/logout_icon.svg");
+            width: 16px;
+            height: 19px;
+            margin-right: 12px;
+        }
+    }
+}

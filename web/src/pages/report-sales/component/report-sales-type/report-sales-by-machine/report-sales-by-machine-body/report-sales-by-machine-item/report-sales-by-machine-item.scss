@@ -1,0 +1,16 @@
+.machineInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 64px;
+
+    svg {
+        position: absolute;
+        top: 9px;
+        left: 12px;
+    }
+
+    p {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,27 @@
+.report-stack-bar-chart-ctn {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    height: 39rem;
+    border: 1px solid #F0F0F0;
+
+    .report-stack-bar-chart-header {
+        margin-bottom: 3.6rem;
+
+        .report-stack-bar-chart-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #000;
+            border-bottom: 2px solid #000;
+            margin-right: 13rem;
+            padding-bottom: 1rem;
+
+        }
+    }
+
+    .report-stack-bar-chart-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+}
